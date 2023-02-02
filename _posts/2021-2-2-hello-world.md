@@ -1,6 +1,16 @@
 ---
-layout: post
-title: 테스트 포스팅 
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
 ---
 
 이쪽은 내용입니다 
